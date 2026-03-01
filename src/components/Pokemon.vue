@@ -44,7 +44,7 @@ const getTypeBorder = (type) => {
   return (typeColors[type] || ['#333'])[0]
 }
 
-// traigo los pokémons de la API igual que la maestra
+// traigo los pokémons de la API 
 const getData = async () => {
   try {
     const data = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=151')
