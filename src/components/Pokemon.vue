@@ -123,7 +123,7 @@ getData()
     </div>
 
     <div v-if="loading" class="loading">
-      <span class="blink">CARGANDO DATOS...</span>
+      <span class="blink">Loading...</span>
     </div>
 
     <div v-else>
